@@ -1,0 +1,27 @@
+section.main-section
+  .wrapper
+    .main-section__container
+      include ../components/header.pug
+      h1.main-section__title.font-w-extra-bold.font-s-40.text-up
+        | Зарабатывайте 
+        br.no-br
+        | от 826 000 рублей 
+        br.no-br
+        | ежемесячно на детском 
+        br.no-br
+        | футбольном клубе
+      .main-section__sub-title.font-s-22
+        | Откройте бизнес, который будет востребован 
+        br.no-br
+        | в каждом городе России
+      .main-section__bottom
+        .font-s-18
+          | Получите подробную презентацию франшизы 
+          br.no-br
+          | «ТРИУМФ ПЕРВЫХ» с цифрами и примерами
+        form.main-section__form(data-feedback-form)
+          input(type="text" name="honeyfield" class="honeypot" style="display:none")
+          input.input(type="text" name="name" autocomplete="off" placeholder="Имя")
+          input.input(type="tel" name="phone" autocomplete="off" data-inputmask="'mask': '+7 (999) 999 9999'" placeholder="Телефон")
+          button.btn(type="submit") Получить
+      img.main-section__img(src="images/main-section-img.jpg" loading="lazy" width="960" height="1000" alt="image")

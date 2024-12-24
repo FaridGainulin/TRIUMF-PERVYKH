@@ -1,0 +1,65 @@
+section.about-section
+  .wrapper
+    .about-section__container
+      h2.about-section__title.font-w-extra-bold.font-s-40.text-up
+        | Запустите бизнес в команде 
+        br.no-br
+        | опытных предпринимателей
+      .about-section__box
+        .swiper-bullet
+          .about-section__cards.swiper-wrapper
+            .about-section__card.swiper-slide
+              img.about-section__card-icon(src="images/about-section-card-icon-1.svg" loading="lazy" width="40" height="40" alt="icon")
+              .font-s-18
+                | Мы ведем работу бизнеса уже с 2018 года 
+                br
+                | и на практике убедились в эффективности 
+                br
+                | нашей бизнес-модели и стратегии развития
+            .about-section__card.swiper-slide
+              img.about-section__card-icon(src="images/about-section-card-icon-2.svg" loading="lazy" width="40" height="40" alt="icon")
+              .font-s-18
+                | Наша команда — это настоящие профессионалы, 
+                br
+                | как руководящий блок, так и тренера и другой 
+                br
+                | персонал, который ведет ежедневную работу клуба
+            .about-section__card.swiper-slide
+              img.about-section__card-icon(src="images/about-section-card-icon-3.svg" loading="lazy" width="40" height="40" alt="icon")
+              .font-s-18
+                | Мы продумали эффективную систему работы клуба 
+                br
+                | и все процессы бизнеса до мелочей, поэтому всегда 
+                br
+                | обеспечены клиентами и стабильной прибылью
+            .about-section__card.swiper-slide
+              img.about-section__card-icon(src="images/about-section-card-icon-4.svg" loading="lazy" width="40" height="40" alt="icon")
+              .font-s-18
+                | Вместе с нами вы откроете бизнес с уже готовым 
+                br
+                | брендом и концепцией, и легко выделитесь 
+                br
+                | на конкурентном рынке
+            .about-section__card.swiper-slide
+              img.about-section__card-icon(src="images/about-section-card-icon-5.svg" loading="lazy" width="40" height="40" alt="icon")
+              .font-s-18
+                | Мы знаем, где точки роста бизнеса в этой 
+                br
+                | нише и поможем вам быстро развить 
+                br
+                | и масштабировать ваши результаты
+          .bullet-pagination.bullet-pagination--left
+      .about-section__line
+      .about-section__bottom
+        .about-section__bottom-text.font-w-extra-bold.font-s-40.text-up
+          | Хотите узнать больше 
+          br
+          | о «ТРИУМФЕ ПЕРВЫХ»?
+        .about-section__bottom-text.font-s-18 Задайте любой вопрос в форме
+        form.about-section__form(data-feedback-form)
+          textarea.input.input--about.input--textarea(type="text" name="answer" autocomplete="off" placeholder="Ваш вопрос")
+          input(type="text" name="honeyfield" class="honeypot" style="display:none")
+          input.input.input--about(type="text" name="name" autocomplete="off" placeholder="Ваше имя")
+          input.input.input--about(type="tel" name="phone" autocomplete="off" data-inputmask="'mask': '+7 (999) 999 9999'" placeholder="Ваш телефон")
+          button.btn(type="submit") Задать вопрос
+      img.about-section__img(src="images/about-section-img.png" loading="lazy" width="1372" height="1372" alt="image")

@@ -1,0 +1,48 @@
+section.finances-section
+  .wrapper
+    .finances-section__container
+      h2.finances-section__title.font-w-extra-bold.font-s-40.text-up
+        | Ключевые показатели франшизы
+      .swiper-bullet
+        .finances-section__cards.swiper-wrapper
+          .finances-section__card.swiper-slide
+            img.finances-section__card-icon(src="images/finances-section-card-icon-1.svg" loading="lazy" width="40" height="40" alt="icon")
+            .finances-section__card-title.font-w-bold.font-s-24-a с 1-го месяца
+            .font-s-18 вы начнете <br> зарабатывать
+          .finances-section__card.swiper-slide
+            img.finances-section__card-icon(src="images/finances-section-card-icon-2.svg" loading="lazy" width="40" height="40" alt="icon")
+            .finances-section__card-title.font-w-bold.font-s-24-a 2 месяца
+            .font-s-18 для запуска <br> школы
+          .finances-section__card.swiper-slide
+            img.finances-section__card-icon(src="images/finances-section-card-icon-3.svg" loading="lazy" width="40" height="40" alt="icon")
+            .finances-section__card-title.font-w-bold.font-s-24-a 7 месяцев
+            .font-s-18 срок окупаемости <br> бизнеса
+          .finances-section__card.swiper-slide
+            img.finances-section__card-icon(src="images/finances-section-card-icon-4.svg" loading="lazy" width="40" height="40" alt="icon")
+            .finances-section__card-title.font-w-bold.font-s-24-a 2 522 000 рублей
+            .font-s-18 ежемесячная <br> выручка с одной точки
+          .finances-section__card.swiper-slide
+            img.finances-section__card-icon(src="images/finances-section-card-icon-5.svg" loading="lazy" width="40" height="40" alt="icon")
+            .finances-section__card-title.font-w-bold.font-s-24-a 32,8%
+            .font-s-18 рентабельность <br> по чистой прибыли
+          .finances-section__card.swiper-slide
+            img.finances-section__card-icon(src="images/finances-section-card-icon-6.svg" loading="lazy" width="40" height="40" alt="icon")
+            .finances-section__card-title.font-w-bold.font-s-24-a 826 000 рублей
+            .font-s-18 ежемесячная чистая <br> прибыль
+        .bullet-pagination
+      .finances-section__bottom
+        .finances-section__bottom-block
+          .font-s-18
+            | Узнайте, какими будут 
+            br.no-br
+            | стартовые инвестиции
+          .finances-section__bottom-title.font-w-extra-bold.font-s-40.text-up
+            | Скачайте финансовую 
+            br
+            | модель франшизы
+          form.finances-section__form(data-feedback-form)
+            input(type="text" name="honeyfield" class="honeypot" style="display:none")
+            input.input.input--white(type="text" name="name" autocomplete="off" placeholder="Имя")
+            input.input.input--white(type="tel" name="phone" autocomplete="off" data-inputmask="'mask': '+7 (999) 999 9999'" placeholder="Телефон")
+            button.btn(type="submit") Скачать
+        img.finances-section__img(src="images/finances-section-img.jpg" loading="lazy" width="760" height="1100" alt="image")
